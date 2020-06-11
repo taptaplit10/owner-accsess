@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+	
+	body{
+		background: black;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
+	
+	#in{
+		border-radius: 20px;
+		padding: 50px, 30px solid grey;
+		align-items: center;
+	}
+	
+	h1 {
+		align-items: center;
+		font-size: 30px;
+ 		text-align: center;
+		}
+	h2 {
+		font-size: 20px;
+		text-align: center;
+		}
+
+	input {
+		border-radius: 30%;
+		padding: 10px 5px;
+		margin: 10px;
+		text-align: center;
+		}
+
+	#btn {
+		padding: 10px 70px;
+		background: white;
+		color: black;
+		border: 5px solid grey;
+		margin-top: 25px;
+		font-size: 20px;
+		border-radius: 100px;
+		text-align: center;
+		}
+
+
+	img {
+	border-radius: 40%;
+	text-align: center;
+	}
+  </style>
+  </head>
+  
+<body>
+<h1>Coolgames.sastam.com</h1>
+<h2>Owner Access</h2>
+
+<br>
+<form name="login">
+	<div class="login">
+
+		<input type="text" id="in" placeholder="Enter Username"><br>
+		<input type="password" id="yeet" placeholder="Enter Password"><br>
+		<input type="button" id="btn" onclick="check(this.form)" value="Login"/>
+    
+
+        
+      
+      
+     <img src="https://images.unsplash.com/photo-1566577134665-2c674085abf7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="">
+    
+    </div>
+</form>
+	
+<script langugue="javascript">
+alert("yeet")
+
+
+
+
+
+function check(form) {
+  if(form.in.value == "Vmay" && form.yeet.value == "taptaplit10") {
+	  window.open('https://snake.sastam.com')
+  } else {
+	  alert("INCORECT")
+  }
+}
+   
+  
+
+</script>
+    
+</body>
+</html>
